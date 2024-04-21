@@ -1,0 +1,417 @@
+/* heading font */
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+
+/* logo font link */
+@import url('https://fonts.googleapis.com/css2?family=Holtwood+One+SC&family=Monoton&family=Racing+Sans+One&display=swap');
+
+/*  Browse job heading font*/
+@import url('https://fonts.googleapis.com/css2?family=Sedan:ital@0;1&display=swap');
+
+/* payment font */
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+
+/* Carsoul heading */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+
+
+:root {
+  --lightGreen: linear-gradient(109.6deg, rgba(61, 131, 97, 1) 11.2%, rgba(28, 103, 88, 1) 91.1%);
+  --bghome2: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+  --bghome4: linear-gradient(111.4deg, rgba(7, 7, 9, 1) 6.5%, rgba(27, 24, 113, 1) 93.2%);
+}
+
+/* browse content */
+
+#browseHeading{
+  font-family: "Sedan", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#browseContent h5{
+  font-family: "Sedan", serif;
+  font-weight: 500;
+  font-style:normal
+}
+
+
+#belowNav {
+  white-space: nowrap;
+  padding-right: 9px;
+  font-family: "Sedan", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#postjob_heading{
+  font-family: "Sedan", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#logo_first {
+  font-family: "Anta", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem;
+  padding-top: 15px;
+}
+
+#logoWidth {
+  width: 2.3rem;
+}
+
+/* login page style ------------------start */
+
+
+.login_box {
+  border: 1px solid rgb(241, 238, 238);
+  box-shadow: 10px 10px 10px rgb(213, 212, 212);
+  margin-top: 7rem;
+  padding: 2rem 4rem;
+}
+
+
+.login_box input {
+  padding-right: 6rem;
+}
+
+
+#chatLogin {
+  margin-top: 4rem;
+  padding-right: 4rem;
+  padding-bottom: 3rem;
+  box-shadow: 8px 8px 5px rgb(235, 231, 231);
+}
+
+
+/* SignUp page style ------------------start */
+
+.signup_box {
+  border: 1px solid rgb(241, 238, 238);
+  box-shadow: 10px 10px 10px rgb(213, 212, 212);
+  margin-top: 7rem;
+  padding: 2rem 4rem;
+}
+
+.signup_box input {
+  padding-right: 6rem;
+}
+
+
+
+
+/* Carousel base class */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+.carousel-item {
+  height: 37rem;
+}
+
+
+
+
+/* home page style ------------------start */
+
+
+
+#home_content1 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+
+#home_content1 h1 {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+
+#home_content2 {
+  margin-top: 6rem;
+  padding-top: 1rem;
+  padding-bottom: 5rem;
+  background-color: #4158D0;
+  background-image: var(--bghome2);
+}
+
+#home_content2 h2 {
+  font-family: "Merriweather", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+#home_content4 h1,h2{
+  font-family: "Merriweather", serif;
+  font-weight: 600;
+  font-style: normal; 
+}
+
+
+#business_content h1,
+h2,
+h3 {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+#payment_content {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+#paymentHeading{
+  font-family: "Anta", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1.4rem;
+}
+
+
+
+
+
+/* Ai content style----------       */
+#business_content {
+  margin-top: 6rem;
+}
+
+#business_content1 {
+  margin-top: 6rem;
+}
+
+#business_content2 {
+  margin-top: 8rem;
+}
+
+#business1 {
+  background-image: var(--lightGreen);
+}
+
+
+
+
+/* --------review section--------- */
+
+#home_content4 {
+  margin-top: 8rem;
+  margin-bottom: 5rem;
+  background-image: var(--bghome4);
+  color: #fff;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+
+
+/* company logo icons */
+
+#company_icon1 {
+  color: #b0b0b0;
+  margin-left: 3rem;
+
+
+}
+
+#company_icon2 {
+  color: #b0b0b0;
+
+}
+
+#company_icon3 {
+  color: #b0b0b0;
+
+}
+
+#company_icon4 {
+  color: #b0b0b0;
+
+}
+
+#company_icon5 {
+  color: #b0b0b0;
+
+}
+
+#company_icon6 {
+  color: #b0b0b0;
+}
+
+
+#logo {
+  width: 4rem;
+}
+
+
+
+
+/* browse job content style-------------- */
+
+#job_btn:hover {
+  background-color: #ececec;
+  border-radius: 1rem;
+}
+
+
+
+/* ----post a job style */
+
+#postJob {
+  background-color: #ffffff;
+  padding: 50px;
+  /* font-size: 24px; */
+}
+
+.popup-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(12, 130, 12, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  animation: popUpAnimation 0.5s ease-out;
+}
+
+@keyframes popUpAnimation {
+  0% {
+    transform: scale(0);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+
+
+
+/* Chat Room Styles */
+#chatRoom {
+  width: 80%;
+  max-width: auto;
+  height: 60%;
+  max-height: auto;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+}
+
+
+#chatRoom h2 {
+  font-size: 24px;
+  padding: 15px;
+  border-bottom: 1px solid #ccc;
+}
+
+#chatContainer {
+  padding: 20px;
+}
+
+#chatTitle {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+#chatMessages {
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.message {
+  background-color: #f9f9f9;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+#messageInput {
+  width: calc(100% - 80px);
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  margin-right: 10px;
+  margin-top: 2rem;
+  position: relative;
+}
+
+
+#sendButton:hover {
+  background-color: #0056b3;
+}
+
+#closeChat {
+  cursor: pointer;
+  float: right;
+  font-size: 18px;
+  color: #555;
+}
+
+#closeChat:hover {
+  color: #000;
+}
+
+
+/* Card Styles */
+.card_ {
+  min-height: 10rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+
+.card_:hover {
+  transform: translateY(-5px);
+}
+
+
+
+input {
+  outline: none;
+}
+
+.button_ {
+  background-color: #007bff;
+  border-color: #007bff;
+  color: #fff;
+  border-radius: 4px;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+  align-self: flex-start;
+}
+
+.button_:hover {
+  background-color: #0056b3;
+}
+
+#myCarousel h1{
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
